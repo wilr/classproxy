@@ -13,7 +13,7 @@ use ReflectionClass;
  */
 class ProxyMirror extends ClassMirror
 {
-    public function reflect(ReflectionClass $class = null, array $interfaces)
+    public function reflect(?ReflectionClass $class, array $interfaces)
     {
         $node = new ClassNode;
 
