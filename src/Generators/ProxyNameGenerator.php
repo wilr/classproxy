@@ -25,7 +25,7 @@ class ProxyNameGenerator extends NameGenerator
         $this->name = $name;
     }
 
-    public function name(ReflectionClass $class = null, array $interfaces)
+    public function name(?ReflectionClass $class, array $interfaces)
     {
         return $this->name;
     }
